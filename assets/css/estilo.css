@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.setupBody {
+  text-align: center;
+  background: linear-gradient(to right, #051367, #2D31FA);
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  padding: 5px;
+}
+
+.quadrado {
+  color: #5D8BF4;
+  width: 60px;
+  height: 60px;
+  background-color: #5D8BF4;
+  display: inline-block;
+  padding: 50px;
+  font-size: 35px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #001E6C;
+  border-radius: 10px;
+}
+
+.jogador, .vencedor {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.botao {
+  background-color: #2D31FA;
+  color: #FFF;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 575.98px) {
+  .quadrado {
+    padding: 30px;
+    font-size: 20px;
+  }
+  .valor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .quadrado {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .quadrado {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+@media (min-width: 1200px) {
+  
+}
